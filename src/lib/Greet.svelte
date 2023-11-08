@@ -11,7 +11,12 @@
 </script>
 
 <div>
-  <input id="greet-input" placeholder="Enter a name..." bind:value="{name}" />
+
+<input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" bind:value="{name}" />
   <button on:click="{greet}">Greet</button>
   <p>{greetMsg}</p>
+  <div> 
+    <button class="btn">Hello daisyUI</button>
+    <input type="checkbox" checked="checked" class="checkbox" />
+</div>
 </div>
